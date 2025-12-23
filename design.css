@@ -3084,11 +3084,17 @@ html.has-custom-cursor button {
     *, *:hover, *:active, *:focus {
         cursor: auto !important;
     }
+    .cursor, .cursor-follower {
+        display: none !important;
+    }
 }
 
 @media (max-width: 480px) {
     *, *:hover, *:active, *:focus {
         cursor: auto !important;
+    }
+    .cursor, .cursor-follower {
+        display: none !important;
     }
 }
     .hero-wrapper {

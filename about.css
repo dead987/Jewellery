@@ -2034,12 +2034,18 @@ img, video {
   *, *:hover, *:active, *:focus {
     cursor: auto !important;
   }
+  .cursor, .cursor-follower {
+    display: none !important;
+  }
 }
 
 /* Tablets and small devices - 992px and below */
 @media (max-width: 992px) and (min-width: 481px) {
   *, *:hover, *:active, *:focus {
     cursor: auto !important;
+  }
+  .cursor, .cursor-follower {
+    display: none !important;
   }
 }
   /* Hero */
