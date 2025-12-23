@@ -2030,6 +2030,18 @@ img, video {
 
 /* Extra small phones - 480px and below */
 @media (max-width: 480px) {
+  /* Remove cursor styles for mobile */
+  *, *:hover, *:active, *:focus {
+    cursor: auto !important;
+  }
+}
+
+/* Tablets and small devices - 992px and below */
+@media (max-width: 992px) and (min-width: 481px) {
+  *, *:hover, *:active, *:focus {
+    cursor: auto !important;
+  }
+}
   /* Hero */
   .hero-eyebrow {
     font-size: 0.65rem;

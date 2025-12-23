@@ -3077,6 +3077,20 @@ html.has-custom-cursor button {
    RESPONSIVE DESIGN
 ======================================== */
 @media (max-width: 1400px) {
+    /* Remove cursor styles for mobile and tablet */
+}
+
+@media (max-width: 992px) {
+    *, *:hover, *:active, *:focus {
+        cursor: auto !important;
+    }
+}
+
+@media (max-width: 480px) {
+    *, *:hover, *:active, *:focus {
+        cursor: auto !important;
+    }
+}
     .hero-wrapper {
         grid-template-columns: 1fr minmax(350px, 420px) 1fr;
         gap: 35px;
